@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width:100%;
+    margin:0 auto;
+    background-color: #FFF;
+}
+
+.bn_top{
+    width:100%;
+    color:#FFF;
+    background-color:#F84056;
+    position:relative;
+}
+.t_left{
+    line-height:12rem;
+    font-size: 8.4rem;
+    float:left;
+}
+.t_left a{
+    text-decoration:none;
+    color:#FFF;
+}
+
+.t_right{
+    font-size: 8.4rem;
+    line-height:12rem;
+    text-align: center;
+    margin-right: 12rem;
+}
+
+.ipt{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+}
+
+.c_top
+{
+    width:78.5%;
+    height:10rem;
+    color:#7a7878;
+    font-size:4.25rem;
+    line-height:10rem;
+    margin-left: 21.5%;
+}
+
+.order-li-opt .ipt{
+    margin-left: 6.5%;
+}
+
+.m_1 {
+    width: 100%;
+}
+
+.m_1_aken{
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+}
+
+.m_left_1{
+    width: 30%;
+    margin-left: 5%;
+    font-size: 4.25rem;
+    color: #7a7878;
+    float: left;
+}
+.m_right_1{
+    width: 60%;
+    font-size: 3.6rem;
+    color: #c9c6c6;
+    float: left;
+}
+
+.m_right_1 label{
+    width: 85%;
+    float: left;
+}
+
+.lol{
+    width: 15%;
+    float: left;
+}
+
+.order-box{
+    width: 100%;
+}
+
+.clearfix,.clearfi,.clearf{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.line-x-t{
+    width: 100%;
+    font-size: 3.32rem;
+    height: 10rem;
+    line-height: 10rem;
+    color: #171717;
+    border-top: 0.3rem #D9D9D9 solid;
+}
+
+.goods_name{
+    float: left;
+    display: block;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.order-li-ops{
+    float:left;
+    width:50%;
+}
+
+.span-ops-1 input,.span-ops-2 input{
+    background-color: white;
+    font-size: 3rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    height: 3.32rem;
+    width: 3.32rem;
+    float:left;
+    margin-top: 3.3rem;
+}
+
+
+.span-check{
+    width: 3.32rem;
+    height: 3.32rem;
+    display: block;
+    float: left;
+    margin-top: 3.3rem;
+}
+
+.span-cost{
+    float: left;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.span-num{
+    float: left;
+    display: block;
+    width: 15%;
+    text-align: center;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;/*设置bottom让底部栏一直悬浮在网页底部*/
+    width: 100%;
+    height:10rem;
+    border-top: #dcdcdc 0.9rem solid;
+    z-index: 97;
+    padding:0px;
+    margin:0px;
+    background-color: #FFF;
+}
+
+.order-btn{
+    width: 40%;
+    font-size: 4.15rem;
+    line-height: 10rem;
+    float: left;
+    margin-left: 10%;
+}
+
+.f_right{
+    width: 50%;
+    line-height:10rem;
+    float: left;
+}
+
+.f_right button{
+    list-style-type:none;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    border-radius:15%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 15rem;
+    color: white;
+}
+
+.btn1{
+    background-color: #AAA9A9;
+}
+
+.btn2{
+    background-color: #F84916;
+}
+
+
+
+
+
+
+
+
+
+

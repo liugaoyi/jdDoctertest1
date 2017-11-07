@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width:100%;
+    margin:0 auto;
+}
+
+.bn_top{
+    width:100%;
+    height:10.4rem;
+    color:#FFF;
+    background-color:#F74056;
+    position:relative;
+}
+.t_left{
+    font-size:1.4rem;
+    line-height: 10.4rem;
+    font-size: 5.4rem;
+    float:left;
+}
+.t_left a{
+    text-decoration:none;
+    color:#FFF;
+}
+
+.t_right{
+    font-size: 5.4rem;
+    line-height:10.4rem;
+    text-align: center;
+    margin-right: 10rem;
+}
+
+.c_top
+{
+    width:100%;
+    height:8.4rem;
+    color:#7A7878;
+    font-size:3.4rem;
+    line-height:8.4rem;
+    padding-top:0.3rem;
+}
+
+.order-li-ops .ipt{
+    margin-left: 20%;
+}
+
+.m_1 {
+    width: 80%;
+    height: 8.4rem;
+    text-align: center;
+    line-height:8.4rem;
+    padding-left: 4.6rem;
+}
+
+.m_left_1{
+    width: 50%;
+    float: left;
+    font-size: 3.4rem;
+}
+
+.m_right_1{
+    width: 50%;
+    float: left;
+    font-size: 3.4rem;
+}
+
+.m_right_1 select{
+    background-color:#D9D9D9;
+    border-radius:7%;
+    border:0.1rem solid #000;
+    color:#7A7878;
+    font-size:3.4rem;
+    width:14.4rem;
+    height:3.4rem;
+}
+
+.m_right_1 input{
+    background-color:#D9D9D9;
+    border-radius:7%;
+    border:0.1rem solid #000;
+    text-align:center;
+    font-size:3.4rem;
+    color:#7A7878;
+    opacity:0.5;
+    width:14.4rem;
+    height:3.4rem;"
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;/*设置bottom让底部栏一直悬浮在网页底部*/
+    width: 100%;
+    height:8.4rem;
+    background-color:white;
+    border-top: #dcdcdc 1px solid;
+    z-index: 97;
+    padding:0px;
+    margin:0px;
+    padding-bottom:2px;
+    padding-top:2px
+}
+
+.clearfix{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.line-x-t{
+    width: 100%;
+    font-size: 3rem;
+    line-height: 6rem;
+    border-top: 0.3rem #D9D9D9 solid;
+}
+
+.order-li-ops,.order-li-ops label{
+  width: 100%;
+}
+
+.lol{
+    float: right;
+}
+
+.goods_name{
+    float: left;
+    display: block;
+    width: 40%;
+    margin-left: 15rem;
+}
+
+.span-ops-1,.span-ops-2{
+
+}
+
+.span-ops-1 input,.span-ops-2 input{
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 45%;
+    height: 2.4rem;
+    width: 2.4rem;
+    text-align: center;
+}
+
+.span-check{
+    width: 2rem;
+    height: 2rem;
+}
+
+.span-cost{
+    margin-left: 8rem;
+}
+
+.order-btn{
+    width: 40%;
+    font-size: 3rem;
+    line-height: 8.4rem;
+    float: left;
+    margin-left: 20%;
+}
+
+.f_right{
+    width: 40%;
+    line-height:8.4rem;
+
+    float: left;
+}
+
+.f_right button{
+    list-style-type:none;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    border-radius:15%;
+    width: 10rem;
+    color: white;
+}
+
+.btn1{
+    background-color: #AAA9A9;
+}
+
+.btn2{
+    background-color: #F84916;
+}
+
+
+
+

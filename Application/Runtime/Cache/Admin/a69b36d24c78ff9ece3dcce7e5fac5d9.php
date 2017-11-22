@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>ajax测试</title>
-    <link rel="stylesheet" href="__CSS__/test.css" />
-    <script type="text/javascript" src="__JS__/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="/jdDoctertest1/Public/css/test.css" />
+    <script type="text/javascript" src="/jdDoctertest1/Public/js/jquery-3.2.1.js"></script>
 </head>
 <body>
 <div class="bn_center">
@@ -28,7 +28,7 @@
         <div class="m_right_1">
             <label class="ax">请选择</label>
             <div class="lol">
-                <img src="__IMAGE__/2.png"/>
+                <img src="/jdDoctertest1/Public/images/2.png"/>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 </ul>
             </div>
         </div>
-        <input type="hidden" name="order_id" value="{$order_id}" />
+        <input type="hidden" name="order_id" value="<?php echo ($order_id); ?>" />
     </div>
 </div>
 
@@ -64,7 +64,7 @@
         $(".ipt").click(function(){
             var val_payPlatform = $('input[name="repair_type"]:checked ').val();
             $.ajax({
-                url:"__CONTROLLER__/test",
+                url:"/jdDoctertest1/index.php?s=/Admin/Test/test",
                 type:'POST',
                 dataType:"JSON",
                 success:function(data){
